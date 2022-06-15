@@ -1,4 +1,4 @@
-// 12. Remove Duplicates in-place from unSorted Array
+// 12. Remove duplicates from unSorted array
 
 #include <iostream>
 #include <set>
@@ -14,7 +14,9 @@ int main()
         S.insert(i);
         
     for(int i: S)
-        cout << i << " ";
+        cout << i << " ";  
+    
+      
 
     return 0;
 }
