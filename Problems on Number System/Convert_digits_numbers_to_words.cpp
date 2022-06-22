@@ -49,19 +49,19 @@ int main()
                 if(len == 2)
                     cout << TensMultiple[num[i] - '0'] << " ";
                 
-                if(num[i+1] - '0' != 0) //1-9   (21-99)
+                if(num[num.length()-1] -'0' != 0)
                 {
-                    cout << SingleDigit[num[i+1] - '0'] << " ";
-                    break;
+                cout << SingleDigit[num[num.length()-1] - '0'] << " "; 
+                break;
                 }
             }
 
-            else if(num[i] -'0' == 0)
-            {
-                continue;             
-                len--;   
+            // else if(num[num.length()-1] -'0' != 0)
+            // {
+            //     cout << SingleDigit[num[num.length()-1] - '0'] << " "; 
+            //     break;
 
-            }
+            // }
 
         }
     }
