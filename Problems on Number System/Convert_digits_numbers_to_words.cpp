@@ -21,7 +21,7 @@ int main()
     if(len == 1)    // 0 - 9
     {
         cout  << SingleDigit[num[0] - '0'] << " ";
-        exit(0);
+        return 0;
     }
 
     for (int i = 0; i < num.length(); i++)
@@ -55,14 +55,6 @@ int main()
                 break;
                 }
             }
-
-            // else if(num[num.length()-1] -'0' != 0)
-            // {
-            //     cout << SingleDigit[num[num.length()-1] - '0'] << " "; 
-            //     break;
-
-            // }
-
         }
     }
     
